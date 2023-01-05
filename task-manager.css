@@ -1,0 +1,102 @@
+#task-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#task-form {
+  display: flex;
+  align-items: center;
+}
+
+#task-input {
+  flex: 1;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  background-color: rgb(71, 135, 255);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: blue;
+}
+
+#task-list {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#task-list li {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: lightgray;
+
+  margin-bottom: 10px;
+}
+
+#task-list input[type="text"] {
+  flex: 1;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.delete-button {
+  margin-left: 10px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.edit-button {
+  margin-left: 10px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  background-color: rgb(18, 95, 121);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: blue;
+}
+
+.task-checkbox {
+  margin-right: 10px;
+}
+
+.task-text {
+  flex: 1;
+  font-size: 16px;
+}
